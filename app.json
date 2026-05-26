@@ -29,7 +29,21 @@
       "bundler": "metro"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      [
+        "expo-contacts",
+        {
+          "contactsPermission": "KTIDEBT needs access to your contacts to select debtors."
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/android-icon-foreground.png",
+          "color": "#1A365D"
+        }
+      ],
+      "expo-local-authentication"
     ]
   }
 }
