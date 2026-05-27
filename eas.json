@@ -7,7 +7,8 @@
     "production": {
       "android": {
         "buildType": "apk"
-      }
+      },
+      "credentialsSource": "local"
     },
     "development": {
       "developmentClient": true,
